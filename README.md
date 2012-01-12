@@ -37,13 +37,13 @@ Link to API documentation for methods:
 * [insertDocked()][ins]
 * [removeDocked()][rm]
 
-<img src="https://github.com/nelstrom/Sencha-Touch-panels-demo/raw/master/assets/Panel-subclasses.png" width="900"/>
+<img src="https://github.com/senchalearn/Panels-demo/raw/master/assets/Panel-subclasses.png" width="900"/>
 
 ## Using this repository to follow the screencast
 
 First, you'll have to clone this repository:
 
-    git clone git://github.com/nelstrom/Sencha-Touch-panels-demo.git
+    git clone git://github.com/senchalearn/Panels-demo.git
 
 Change into the directory:
 
@@ -80,21 +80,21 @@ And you can switch between branches with the checkout command. For example, to c
 [ins]: http://dev.sencha.com/deploy/touch/docs/?class=Ext.Panel&member=insertDocked
 [rm]:  http://dev.sencha.com/deploy/touch/docs/?class=Ext.Panel&member=removeDocked
 
-[00]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/00_blank_slate
+[00]: https://github.com/senchalearn/Panels-demo/tree/00_blank_slate
 
-[01a]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/01a_docked_items
-[01b]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/01b_docked_items
-[01c]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/01c_docked_items
-[01d]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/01d_docked_items
-[01e]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/01e_docked_items
-[01f]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/01f_docked_items
+[01a]: https://github.com/senchalearn/Panels-demo/tree/01a_docked_items
+[01b]: https://github.com/senchalearn/Panels-demo/tree/01b_docked_items
+[01c]: https://github.com/senchalearn/Panels-demo/tree/01c_docked_items
+[01d]: https://github.com/senchalearn/Panels-demo/tree/01d_docked_items
+[01e]: https://github.com/senchalearn/Panels-demo/tree/01e_docked_items
+[01f]: https://github.com/senchalearn/Panels-demo/tree/01f_docked_items
 
-[02a]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02a_nesting_docked_items
-[02b]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02b_nesting_docked_items
-[02c]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02c_nesting_docked_items
-[02d]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02d_nesting_docked_items
-[02e]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/02e_nesting_docked_items
+[02a]: https://github.com/senchalearn/Panels-demo/tree/02a_nesting_docked_items
+[02b]: https://github.com/senchalearn/Panels-demo/tree/02b_nesting_docked_items
+[02c]: https://github.com/senchalearn/Panels-demo/tree/02c_nesting_docked_items
+[02d]: https://github.com/senchalearn/Panels-demo/tree/02d_nesting_docked_items
+[02e]: https://github.com/senchalearn/Panels-demo/tree/02e_nesting_docked_items
 
-[03]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/03_generated_golden_spiral
+[03]: https://github.com/senchalearn/Panels-demo/tree/03_generated_golden_spiral
 
-[04]: https://github.com/nelstrom/Sencha-Touch-panels-demo/tree/04_docked_toolbar
+[04]: https://github.com/senchalearn/Panels-demo/tree/04_docked_toolbar
