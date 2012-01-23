@@ -9,28 +9,28 @@ Ext.setup({
         width: dimensions[0],
         height: dimensions[1],
         cls: 'panel-1',
-        dockedItems: [{
-          dock: 'right',
+        items: [{
+          docked: 'right',
           width: dimensions[2],
           height: dimensions[1],
           cls: 'panel-2',
-          dockedItems: [{
-            dock: 'top',
+          items: [{
+            docked: 'top',
             width: dimensions[2],
             height: dimensions[3],
             cls: 'panel-3',
-            dockedItems: [{
-              dock: 'left',
+            items: [{
+              docked: 'left',
               width: dimensions[4],
               height: dimensions[3],
               cls: 'panel-4',
-              dockedItems: [{
-                dock: 'bottom',
+              items: [{
+                docked: 'bottom',
                 width: dimensions[4],
                 height: dimensions[5],
                 cls: 'panel-5',
-                dockedItems: [{
-                  dock: 'right',
+                items: [{
+                  docked: 'right',
                   width: dimensions[6],
                   height: dimensions[5],
                   cls: 'panel-6'
