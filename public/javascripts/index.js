@@ -4,45 +4,20 @@ Ext.application({
     name: 'App',
 
     launch: function() {
-        var dimensions = [340,210,130,80,50,30,20,10];
+        var goldenSpiral = {},
+        dimensions = [340,210,130,80,50,30,20,10],
+        cycleEdges = ['bottom', 'right', 'top', 'left'];
 
-        Ext.Viewport.add({
-            fullscreen: true,
-            items: [{
-                width: dimensions[0],
-                height: dimensions[1],
-                cls: 'panel-1',
-                items: [{
-                    docked: 'right',
-                    width: dimensions[2],
-                    height: dimensions[1],
-                    cls: 'panel-2',
-                    items: [{
-                        docked: 'top',
-                        width: dimensions[2],
-                        height: dimensions[3],
-                        cls: 'panel-3',
-                        items: [{
-                            docked: 'left',
-                            width: dimensions[4],
-                            height: dimensions[3],
-                            cls: 'panel-4',
-                            items: [{
-                                docked: 'bottom',
-                                width: dimensions[4],
-                                height: dimensions[5],
-                                cls: 'panel-5',
-                                items: [{
-                                    docked: 'right',
-                                    width: dimensions[6],
-                                    height: dimensions[5],
-                                    cls: 'panel-6'
-                                }]
-                            }]
-                        }]
-                    }]
-                }]
-            }]
-        });
+        for (var i = dimensions.length; i >= 0; i--) {
+            goldenSpiral = {
+                width:  dimensions[ ( i%2 === 0) ? i : i+1 ],
+                height: dimensions[ ( i%2 !== 0) ? i : i+1 ],
+                docked: cycleEdges[ i % cycleEdges.length ],
+                cls:    "panel-" + (i+1),
+                items:  goldenSpiral
+            };
+        }
+
+        Ext.Viewport.add({items: goldenSpiral});
     }
 });
